@@ -1,6 +1,16 @@
+# Day 1 of 30 – #DSA Challenge
+#Topic: Arrays
+# Problem: Remove Duplicates from a List
+# Language: Python
+#Concept: Set, List, Sorting
+nums = [1, 2, 2, 3, 4, 1, 5]
+unique_sorted = sorted(set(nums))
+print(unique_sorted)
+
+
+#leetcode problem link: https://leetcode.com/problems/minimum-sum-of-array-after-k-operations/
 from typing import List
 from functools import cache
-
 class Solution:
     def minArraySum(self, nums: List[int], k: int, op1: int, op2: int) -> int:
         n = len(nums)
