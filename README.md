@@ -42,3 +42,20 @@ Language: Python
 - Use a dummy node and iterate both lists.
 - Append the smaller node each time and move the pointer.
 - Handle edge cases when one list is empty.
+  
+
+#Day 3 of #30DaysOfDSA – Strengthening the Foundation
+-Problem 1: Remove Duplicates from Sorted Array (Array, Two-Pointers)
+-Problem 2: Implement strStr() (String, Sliding Window)
+
+#Concepts Reinforced:
+
+-Efficient Array Traversal using Two Pointers
+
+-Sliding Window Technique
+
+-In-place Modifications
+
+-String Search without Built-in Methods
+
+Every day is a new chance to improve. Staying consistent, one problem at a time.
