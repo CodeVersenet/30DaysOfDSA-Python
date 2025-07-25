@@ -49,32 +49,37 @@ Welcome to Day 3 of my #30DaysOfDSA challenge!
 Today, I practiced two classic problems involving Arrays and Strings using **Two Pointer** and **Sliding Window** techniques.
 
 
-## ✅ Problem 1: Remove Duplicates from Sorted Array  
--  [LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  
+## Problem 1: Move Zeroes 
 - Topic: Array, Two Pointers  
 
-### Description:
-Given a sorted array, remove the duplicates **in-place** such that each unique element appears only once and return the new length.
+LeetCode #283
 
-###  Python Solution:
-```python
+Topic: Array, Two Pointers
+
+#Description:
+Given an integer array nums, move all 0's to the end while maintaining the relative order of the non-zero elements. Do it in-place with O(1) extra space.
+
+Python Solution:
 class Solution:
-    def removeDuplicates(self, nums):
-        if not nums:
-            return 0
-        
-        i = 0
-        for j in range(1, len(nums)):
-            if nums[i] != nums[j]:
-                i += 1
-                nums[i] = nums[j]
-        
-        return i + 1
+    def moveZeroes(self, nums):
+        non_zero_pos = 0
+        for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[non_zero_pos], nums[i] = nums[i], nums[non_zero_pos]
+                non_zero_pos += 1
+        return nums
 
-# Example
-nums = [1, 1, 2, 2, 3]
+# Example usage
+nums = [0, 1, 0, 3, 12]
 sol = Solution()
-k = sol.removeDuplicates(nums)
-print("Unique count:", k)
-print("Modified array:", nums[:k])
+result = sol.moveZeroes(nums)
+print("After moving zeroes:", result)
+#Output:
+After moving zeroes: [1, 3, 12, 0, 0]
+
+#Key Concepts:
+Two Pointer Technique.
+In-place array manipulation.
+Preserves order of non-zero elements.
+
 
