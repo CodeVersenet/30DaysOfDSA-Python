@@ -43,19 +43,38 @@ Language: Python
 - Append the smaller node each time and move the pointer.
 - Handle edge cases when one list is empty.
   
+# Day 3 - #30DaysOfDSA Challenge
 
-#Day 3 of #30DaysOfDSA – Strengthening the Foundation
--Problem 1: Remove Duplicates from Sorted Array (Array, Two-Pointers)
--Problem 2: Implement strStr() (String, Sliding Window)
+Welcome to Day 3 of my #30DaysOfDSA challenge!  
+Today, I practiced two classic problems involving Arrays and Strings using **Two Pointer** and **Sliding Window** techniques.
 
-#Concepts Reinforced:
 
--Efficient Array Traversal using Two Pointers
+## ✅ Problem 1: Remove Duplicates from Sorted Array  
+-  [LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  
+- Topic: Array, Two Pointers  
 
--Sliding Window Technique
+### Description:
+Given a sorted array, remove the duplicates **in-place** such that each unique element appears only once and return the new length.
 
--In-place Modifications
+###  Python Solution:
+```python
+class Solution:
+    def removeDuplicates(self, nums):
+        if not nums:
+            return 0
+        
+        i = 0
+        for j in range(1, len(nums)):
+            if nums[i] != nums[j]:
+                i += 1
+                nums[i] = nums[j]
+        
+        return i + 1
 
--String Search without Built-in Methods
+# Example
+nums = [1, 1, 2, 2, 3]
+sol = Solution()
+k = sol.removeDuplicates(nums)
+print("Unique count:", k)
+print("Modified array:", nums[:k])
 
-Every day is a new chance to improve. Staying consistent, one problem at a time.
