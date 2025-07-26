@@ -83,12 +83,14 @@ In-place array manipulation.
 Preserves order of non-zero elements.
 
 
-Day 4 #30DaysOfDSA Challenge
-Binary Search Mastery 
-• Learned Iterative & Recursive Binary Search
-• Solved LC 704, 374
-• Concepts: mid calculation, search space shrinking, edge cases
+# Day 4 of #30DaysOfDSA
+- Problem 1: Binary Search (LeetCode #704)
+- Problem 2: Guess Number Higher or Lower (LeetCode #374)
+- Problem 3: First Bad Version (LeetCode #278)
+- Problem 4: Search Insert Position (LeetCode #35)
+- Problem 5: Find First and Last Position of Element in Sorted Array (LeetCode #34)
 
+# Skills: Binary Search , Logarithmic Thinking, Edge Case Handling, Search in Sorted Arrays using Python 
 #Key Concepts Covered:
 -Binary Search (Iterative & Recursive)
 -Time Complexity: O(log n)
