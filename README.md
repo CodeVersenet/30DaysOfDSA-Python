@@ -88,7 +88,8 @@ Preserves order of non-zero elements.
 - Problem 2: Guess Number Higher or Lower (LeetCode #374)
 
 Key Learning : Binary Search , Logarithmic Thinking, Edge Case Handling, Search in Sorted Arrays using Python 
-#Key Concepts Covered:
+
+Concepts Covered:
 -Binary Search (Iterative & Recursive)
 -Time Complexity: O(log n)
 -Edge Case Handling (start > end, duplicates)
