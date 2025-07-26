@@ -82,4 +82,15 @@ Two Pointer Technique.
 In-place array manipulation.
 Preserves order of non-zero elements.
 
+#Day 4 - Binary Search Mastery 
+• Learned Iterative & Recursive Binary Search
+• Solved LC 704, 374
+• Concepts: mid calculation, search space shrinking, edge cases
+
+#Key Concepts Covered:
+-Binary Search (Iterative & Recursive)
+-Time Complexity: O(log n)
+-Edge Case Handling (start > end, duplicates)
+-Left & Right Boundaries
+-Search in Sorted Arrays
 
