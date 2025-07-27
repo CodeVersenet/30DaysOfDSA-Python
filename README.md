@@ -96,3 +96,16 @@ Concepts Covered:
 -Left & Right Boundaries
 -Search in Sorted Arrays
 
+# Day 5 of #30DaysOfDSA – Keep Pushing Forward 
+-Problem 1: Best Time to Buy and Sell Stock
+-Problem 2: Valid Palindrome
+
+#Concepts Covered:
+
+-Sliding Window Technique
+-Two Pointers
+-String Preprocessing
+-Edge Case Handling
+
+#Problem Tags:
+Arrays, Strings, Two-Pointers, Greedy
