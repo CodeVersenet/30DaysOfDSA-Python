@@ -110,3 +110,41 @@ Problem 2: Valid Palindrome
 
 #Problem Tags:
 Arrays, Strings, Two-Pointers, Greedy
+
+ # Day 6 - LeetCode Challenge 
+
+#Problems Solved:
+1. 69. Sqrt(x)  
+2. 278. First Bad Version
+##  Problem 1: [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+Key Concepts:
+
+Binary Search
+Math (Square Root Approximation)
+Integer Overflow Handling
+Time Complexity Optimization
+
+Problem Tags:
+-Binary Search
+-Math
+-Algorithm
+-Easy
+
+# Problem 2: 278. First Bad Version
+#Problem Statement:
+Given n versions [1, 2, ..., n] and an API isBadVersion(version), find the first bad version which causes all the following ones to be bad.
+roblem 278: First Bad Version
+ Link to problem [https://leetcode.com/problems/first-bad-version/submissions/1714841522/]
+
+#Key Concepts:
+Binary Search
+API Interaction (Black Box Function)
+Edge Case Handling
+Search Space Reduction
+
+#Problem Tags:
+-Binary Search
+-Interactive
+-Easy
+
+
