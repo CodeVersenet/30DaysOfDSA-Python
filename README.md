@@ -111,7 +111,7 @@ Problem 2: Valid Palindrome
 #Problem Tags:
 Arrays, Strings, Two-Pointers, Greedy
 
- # Day 6 - LeetCode Challenge 
+ # Day6 of #30DaysOfDSA - LeetCode Challenge 
 
 #Problems Solved:
 1. 69. Sqrt(x)  
