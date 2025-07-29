@@ -147,7 +147,8 @@ Search Space Reduction
 -Interactive
 -Easy
 
-## Day7 of #30DaysOfDSA
+##  Day7 of #30DaysOfDSA - LeetCode Challenge 
+
 
 Today, I focused on mastering **Linked List** problems by solving two fundamental challenges on LeetCode:
 ## Problem 1: [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
