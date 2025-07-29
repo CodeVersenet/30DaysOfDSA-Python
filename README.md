@@ -147,4 +147,38 @@ Search Space Reduction
 -Interactive
 -Easy
 
+# LeetCode Challenge - Day 7
+
+Today, I focused on mastering **Linked List** problems by solving two fundamental challenges on LeetCode:
+## Problem 1: [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
+### Key Concepts:
+- Linked List Manipulation
+- Iterative and Recursive Approach
+- Pointers (prev, curr, next)
+
+### Approach:
+Reversed a singly linked list using both **iterative** and **recursive** methods. Focused on understanding pointer movement and memory references.
+
+## Problem 2: [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+### Key Concepts:
+- Linked List
+- Floyd's Cycle Detection Algorithm (Tortoise and Hare)
+- Fast and Slow Pointers
+
+### Approach:
+Used Floyd’s cycle detection technique to determine if a cycle exists in the linked list. This is a very efficient algorithm with **O(n)** time and **O(1)** space complexity.
+
+## Tools Used:
+- Language: **Python**
+- Platform: **LeetCode**
+- Editor: **VS Code**
+
+## What I Learned:
+- Mastery of basic linked list operations
+- Understanding cycle detection in constant space
+- Importance of pointer manipulation in interview-style problems
+
+
 
