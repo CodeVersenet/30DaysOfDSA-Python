@@ -228,5 +228,31 @@ class MyStack:
     def empty(self) -> bool:
         return not self.q
 
+#  Day 9 of #30DaysOfDSA - LeetCode Challenge 
+
+
+Today I solved two important array problems that are commonly asked in coding interviews.
+
+#  Problem 1: [169. Majority Element](https://leetcode.com/problems/majority-element/)
+
+###  Key Concepts:
+- Frequency counting
+- **Boyer–Moore Voting Algorithm**
+- Greedy selection
+
+###  Approach:
+The Boyer-Moore algorithm finds the majority element in **O(n)** time and **O(1)** space by keeping track of a candidate and its count.
+
+python
+class Solution:
+    def majorityElement(self, nums):
+        count = 0
+        candidate = None
+        for num in nums:
+            if count == 0:
+                candidate = num
+            count += (1 if num == candidate else -1)
+        return candidate
+
 
 
