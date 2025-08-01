@@ -254,28 +254,7 @@ class Solution:
             count += (1 if num == candidate else -1)
         return candidate
 
-#  Day 10 - LeetCode Challenge 
-
-Today I explored **set operations** and **mathematical logic** problems to strengthen my problem-solving versatility.
-
-##  Problem 1: [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
-
-###  Key Concepts:
-- Set Operations (`intersection`)
-- Removing Duplicates
-- Python Set Efficiency
-
-###  Approach:
-1. Convert both input arrays into sets.
-2. Use set intersection to find common elements.
-3. Convert the resulting set back into a list.
-
-###  Solution:
-python
-class Solution:
-    def intersection(self, nums1, nums2):
-        return list(set(nums1) & set(nums2))
-
+#  Day 10 of #30DaysOfDSA - LeetCode Challenge 
 # LeetCode 202 - Happy Number
 
 ## 📌 Problem Link:
@@ -301,7 +280,28 @@ A happy number is defined by the following process:
 5. 
 ## ⏱ Complexity Analysis:
 - Time Complexity O(log n)per transformation (because digit count reduces per step)
--Space Complexity: O(log n) for storing seen numbers in a set
+-Space Complexity: O(log n) for storing seen numbers in a set.
+
+
+Today I explored **set operations** and **mathematical logic** problems to strengthen my problem-solving versatility.
+
+##  Problem 1: [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+
+###  Key Concepts:
+- Set Operations (`intersection`)
+- Removing Duplicates
+- Python Set Efficiency
+
+###  Approach:
+1. Convert both input arrays into sets.
+2. Use set intersection to find common elements.
+3. Convert the resulting set back into a list.
+
+###  Solution:
+python
+class Solution:
+    def intersection(self, nums1, nums2):
+        return list(set(nums1) & set(nums2))
 
 
 
