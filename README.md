@@ -254,5 +254,54 @@ class Solution:
             count += (1 if num == candidate else -1)
         return candidate
 
+#  Day 10 - LeetCode Challenge 
+
+Today I explored **set operations** and **mathematical logic** problems to strengthen my problem-solving versatility.
+
+##  Problem 1: [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+
+###  Key Concepts:
+- Set Operations (`intersection`)
+- Removing Duplicates
+- Python Set Efficiency
+
+###  Approach:
+1. Convert both input arrays into sets.
+2. Use set intersection to find common elements.
+3. Convert the resulting set back into a list.
+
+###  Solution:
+python
+class Solution:
+    def intersection(self, nums1, nums2):
+        return list(set(nums1) & set(nums2))
+
+# LeetCode 202 - Happy Number
+
+## 📌 Problem Link:
+[202. Happy Number](https://leetcode.com/problems/happy-number/)
+## 📝 Problem Statement:
+Write an algorithm to determine if a number is a **"happy number"**.
+
+A happy number is defined by the following process:
+1. Starting with any positive integer, replace the number by the sum of the squares of its digits.
+2. Repeat the process until the number equals 1 (where it will stay).
+3. If it loops endlessly without reaching 1, then the number is not happy.
+##  Key Concepts:
+- **Mathematical Logic**
+- **Cycle Detection using Hash Set**
+- **Digit Manipulation**
+
+
+##  Approach:
+1. Use a `set()` to store previously seen numbers to detect cycles.
+2. Continuously replace the number with the sum of the squares of its digits.
+3. If the number becomes `1`, return `True`.
+4. If the number repeats, return `False`.
+5. 
+## ⏱ Complexity Analysis:
+- Time Complexity O(log n)per transformation (because digit count reduces per step)
+-Space Complexity: O(log n) for storing seen numbers in a set
+
 
 
