@@ -302,6 +302,35 @@ python
 class Solution:
     def intersection(self, nums1, nums2):
         return list(set(nums1) & set(nums2))
+ 
+# 💻 Day 11 of #30DaysOfDSA - LeetCode Challenge
 
+Today’s focus was on **sliding window techniques** and **two-pointer optimization**.  
+Both problems are highly popular in coding interviews and helped reinforce advanced problem-solving skills.
 
+##  Problem 1: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+###  Key Concepts:
+- Sliding Window
+- Hash Map for character tracking
+- Dynamic window resizing
+
+###  Approach:
+1. Maintain a **sliding window** to store the current substring without duplicates.
+2. Use a dictionary to store the last seen index of characters.
+3. If a duplicate is found, adjust the `left` pointer to skip past it.
+4. Track the maximum substring length.
+
+###  Solution:
+python
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        char_index = {}
+        left = max_len = 0
+        for right, char in enumerate(s):
+            if char in char_index and char_index[char] >= left:
+                left = char_index[char] + 1
+            char_index[char] = right
+            max_len = max(max_len, right - left + 1)
+        return max_len
 
